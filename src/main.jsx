@@ -1,7 +1,6 @@
 import {createRoot} from "react-dom/client"
+import App from './app'
 
 const root = createRoot(document.getElementById('app'))
 
-root.render(
-  <h1>Hi this is my enter point</h1>
-)
+root.render(<App/>)
